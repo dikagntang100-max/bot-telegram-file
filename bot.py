@@ -3,10 +3,10 @@ import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ISI_TOKEN_KAMU")
-GROUP_ID = int(os.environ.get("GROUP_ID", "-1001234567890"))
-GROUP_LINK = "https://t.me/+d-W_foAg0AthNTU1x"
-FILE_TO_SEND = "FILE_ID_ATAU_URL_FILE"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8754264351:AAG2WSsKv7fqB0bU8dsG8AcTrpDMG4M4tyY")
+GROUP_ID = int(os.environ.get("GROUP_ID", "--1004483065655"))
+GROUP_LINK = "https://t.me/+d-W_foAg0AthNTU1"
+FILE_TO_SEND = "https://indirect-bronze-ectgsr9f.edgeone.dev/"
 
 logging.basicConfig(level=logging.INFO)
 
